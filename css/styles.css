@@ -1,0 +1,145 @@
+
+/* Tag Styles */
+
+body {
+    text-align: center;
+    color: #41aea9;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'JetBrains Mono', monospace;
+}
+img {
+   
+}
+div {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4rem; /* 1em = 16px, rem means root em, i.e. no inheritance on size */
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color:#11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: #e8ffff;
+}
+
+p {
+    line-height: 1.5;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 5px;
+    width: 10%;
+    
+}
+
+
+
+
+/* Class Styles */
+
+
+
+.top-cloud {
+  
+    position: relative;
+    left: 30%;
+    width: 20%;
+   
+}
+
+.bottom-cloud {
+  
+    position: relative;
+    right: 10%;
+    bottom: 350px;
+    width:20%;
+    margin: 0px;
+    padding: 0px;
+
+   
+}
+
+.mountain-pic {
+    width:40%;
+    
+   
+}
+
+.top-container {
+    background-color: #a6f6f1;
+    margin: 0px;
+    margin-bottom:100px;
+    padding: 0px;
+    
+}
+
+.middle-container {
+
+}
+
+.profile {
+    margin-bottom: 50px;
+}
+
+.profile-pic {
+    width: 10%;
+}
+
+.skill-row {
+    text-align: left;
+    margin: 100px auto 100px auto; 
+    width: 50%;
+    line-height: 2;
+}
+
+.code-icon {
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.ops-icon {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    margin-top: 50px;
+}
+
+.bottom-container {
+    background-color: #213e3b;
+    margin-top:50px;
+    padding: 20px;
+}
+
+.subtitle {
+    font-weight: normal;
+}
+
+.footer {
+    color: white;
+    font-size: 0.75rem;
+}
+
+
+/* ID styles */
