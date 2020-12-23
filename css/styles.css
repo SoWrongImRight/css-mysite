@@ -79,8 +79,9 @@ hr {
 
 .mountain-pic {
     width:40%;
-    position: relative;
-    top: 1.75rem;
+    /* position: relative; */
+    object-position: bottom;
+    /* top: 1.75rem; */
    
 }
 
