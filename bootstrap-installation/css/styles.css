@@ -32,14 +32,26 @@ p {
 
 /* Class Selectors */
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 .slant-image {
     transform:rotate(20deg);
-    
+    position: absolute;
+    right: 15%;
     width: 60%;
     margin: 30px;
+}
+
+@media (max-width: 1020px) {
+    #title {
+        text-align: center;
+    }
+
+    .slant-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
 /* Navigation Bar */
@@ -94,17 +106,30 @@ p {
     padding: 7% 15%;
 }
 
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.footer-icon {
+    padding: 0 2% 3% 2%;
+    font-size: 1.5rem;
+}
+
 
 /*  ID Selectors */
 
 #title {
     background-color: #ff4c68;
     color: white;
+  
 }
 
 #features {
     text-align: center;
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
         
 }
 
@@ -118,10 +143,28 @@ p {
     text-align: center;
     background-color: #ef8172;
     color: white;
+    position: relative;
 }
 
 #press {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+#calltoaction {
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
 }
