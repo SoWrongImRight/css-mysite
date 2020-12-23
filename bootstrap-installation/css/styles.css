@@ -29,6 +29,9 @@ p {
     color: #8f8f8f;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* Class Selectors */
 .container-fluid {
@@ -75,6 +78,10 @@ p {
     font-weight: 300;
 }
 
+.nav-link:hover {
+    transform: scale(1.5);
+}
+
 /* Buttons */
 .dl-button {
     margin: 5% 3% 5% 0%;
@@ -115,6 +122,11 @@ p {
     font-size: 1.5rem;
 }
 
+.footer-icon:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    position: relative;
+}
 
 /*  ID Selectors */
 
