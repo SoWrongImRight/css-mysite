@@ -87,7 +87,9 @@ hr {
 
 .top-container {
     background-color: #a6f6f1;
-    margin: 7% 15%;
+    margin: 0px;
+    margin-bottom:100px;
+    padding: 0px;
     
 }
 
